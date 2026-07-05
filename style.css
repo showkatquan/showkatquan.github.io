@@ -1209,4 +1209,96 @@ padding:25px;
 }
 
 }
+/* ========= MOBILE MENU ========= */
+
+.nav-links.show{
+
+display:flex;
+flex-direction:column;
+position:absolute;
+top:80px;
+left:0;
+width:100%;
+background:#08111f;
+padding:25px;
+border-radius:18px;
+
+}
+
+/* ========= ACTIVE NAV ========= */
+
+.nav-links a.active{
+
+color:#22d3ee;
+
+}
+
+/* ========= SCROLL ANIMATION ========= */
+
+.hidden{
+
+opacity:0;
+transform:translateY(40px);
+transition:all .8s ease;
+
+}
+
+.show{
+
+opacity:1;
+transform:translateY(0);
+
+}
+
+/* ========= PARTICLES ========= */
+
+#particles span{
+
+position:absolute;
+display:block;
+border-radius:50%;
+background:rgba(34,211,238,.18);
+
+animation:float infinite linear;
+
+}
+
+@keyframes float{
+
+0%{
+
+transform:translateY(0);
+
+opacity:0;
+
+}
+
+20%{
+
+opacity:1;
+
+}
+
+100%{
+
+transform:translateY(-120vh);
+
+opacity:0;
+
+}
+
+}
+
+/* ========= NAVBAR ========= */
+
+.navbar.sticky{
+
+background:rgba(8,17,31,.85);
+
+backdrop-filter:blur(20px);
+
+box-shadow:0 10px 40px rgba(0,0,0,.35);
+
+}
+
 
