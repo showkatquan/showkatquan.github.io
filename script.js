@@ -117,7 +117,7 @@ link.classList.add("active");
 
 const particles=document.getElementById("particles");
 
-for(let i=0;i<35;i++){
+for(let i=0;i<0;i++){
 
 let dot=document.createElement("span");
 
