@@ -117,36 +117,18 @@ radial-gradient(circle at top right,#10304d 0%,#08111f 55%);
 ========================================== */
 
 .navbar{
-
-position:fixed;
-
-top:20px;
-
-left:50%;
-
-transform:translateX(-50%);
-
-width:88%;
-
-padding:18px 40px;
-
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-background:rgba(8,17,31,.55);
-
-backdrop-filter:blur(16px);
-
-border:1px solid var(--border);
-
-border-radius:18px;
-
-z-index:999;
-
-transition:.35s;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #000;
+border-bottom: 1px solid var(--border);
+z-index: 999;
+transition: .35s;
 
 }
 
