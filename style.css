@@ -1089,16 +1089,18 @@ grid-template-columns:1fr;
 
 .nav-links{
 
-display:none;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 15px 25px;
 
 }
 
 .menu{
 
-display:block;
+display: none;
 
 }
-
 .navbar{
 
 padding:18px 24px;
